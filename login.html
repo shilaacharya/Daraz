@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        background-color: rgb(84, 84, 89);
+        padding: 20px;
+        outline: none;
+        border-radius: 5px;
+      }
+      input {
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+        font-size: 15px;
+      }
+      .login-button button {
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 6px 10px;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <form action="">
+        <div class="container">
+          <div class="login-email">
+            <input type="email" placeholder="Enter the email" />
+          </div>
+          <div class="login-password">
+            <input type="password" placeholder="Enter the password" />
+          </div>
+          <div class="login-button">
+            <button type="submit">login</button>
+          </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

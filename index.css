@@ -1,0 +1,90 @@
+.daraz-logo img {
+  height: 50px;
+  width: 100px;
+  background-color: orangered;
+}
+.navar-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background: orangered;
+}
+.hero-section-wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.right-hero-section-wrapper img {
+  height: 220px;
+  width: 800px;
+}
+.left-hero-section-wrapper ul li {
+  list-style: none;
+}
+.small-cards-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+.small-card-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.small-card-item h1 {
+  font-size: 20px;
+  font-weight: 100;
+}
+.small-card-item img {
+  height: 100px;
+  width: 100px;
+}
+.flash-sales-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.flash-sales-card img {
+  height: 130px;
+  width: 100px;
+}
+.flash-sales-card h6 {
+  margin-top: 2px;
+}
+.flash-sales-card h5 {
+  margin-top: -15px;
+  color: orangered;
+}
+.flash-sales-card .price-section {
+  margin-top: -20px;
+}
+.flash-sales-items h1 {
+  margin-left: 210px;
+  text-transform: capitalize;
+}
+
+.login-signup {
+  display: flex;
+  gap: 10px;
+}
+.login-signup a {
+  text-decoration: none;
+  color: black;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  padding: 15px 100px;
+  background-color: aqua;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
